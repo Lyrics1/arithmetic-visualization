@@ -107,6 +107,7 @@ window.onload = function(){
 	function clearSvgChild(){
 		while(document.getElementsByTagName("rect").length!=0){
 			$('rect')[0].remove();
+			$('g')[0].remove();
 		}
 	}
 	//获得数组
